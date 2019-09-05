@@ -10,6 +10,7 @@ This shooting gallery arcade game is controlled by the Arduino micro-controller.
 The structured is 3D modelled and sent to a vendor to be built from wood. There are 2 guns where we can use to aim at the moving targets. Pulling the trigger will send an Infra-red signal that will be scored if it hits the target’s sensor accurately. A laser diode is mounted on the gun for aiming as well. 
 
 ![Alt text](./Pictures/Insides.jpg)
+
 The gun consists of 2 arduino nano:  
 * Minions_Gun_Arduino_Laser code for the nano connected to the 2 switches, laser, and neopixel  
 * Minions_Gun_Arduino_Score code for the nano connected to the IR receiver, sevseg, and vibration module  
